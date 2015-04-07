@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A822F1791AA6E2DD001E4B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A822F1781AA6E2DD001E4B4E /* main.m */; };
+		A822F17C1AA6E2DD001E4B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A822F17B1AA6E2DD001E4B4E /* AppDelegate.m */; };
+		A822F1841AA6E2DD001E4B4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A822F1831AA6E2DD001E4B4E /* Images.xcassets */; };
+		A822F19E1AA6F4ED001E4B4E /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A822F19D1AA6F4ED001E4B4E /* AccelerometerViewController.m */; };
+		A822F1A21AA9796B001E4B4E /* XYZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A822F1A11AA9796B001E4B4E /* XYZObject.m */; };
+		A87B2E191AC39DF80015505E /* ParamCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A87B2E181AC39DF80015505E /* ParamCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A822F1731AA6E2DD001E4B4E /* WalkingStyleChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkingStyleChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A822F1771AA6E2DD001E4B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A822F1781AA6E2DD001E4B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A822F17A1AA6E2DD001E4B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A822F17B1AA6E2DD001E4B4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A822F1831AA6E2DD001E4B4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A822F19C1AA6F4ED001E4B4E /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
+		A822F19D1AA6F4ED001E4B4E /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
+		A822F1A01AA9793A001E4B4E /* XYZObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZObject.h; sourceTree = "<group>"; };
+		A822F1A11AA9796B001E4B4E /* XYZObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZObject.m; sourceTree = "<group>"; };
+		A87B2E171AC39DF80015505E /* ParamCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamCalculator.h; sourceTree = "<group>"; };
+		A87B2E181AC39DF80015505E /* ParamCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamCalculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A822F1701AA6E2DD001E4B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A822F16A1AA6E2DD001E4B4E = {
+			isa = PBXGroup;
+			children = (
+				A822F1751AA6E2DD001E4B4E /* WalkingStyleChecker */,
+				A822F1741AA6E2DD001E4B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A822F1741AA6E2DD001E4B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A822F1731AA6E2DD001E4B4E /* WalkingStyleChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A822F1751AA6E2DD001E4B4E /* WalkingStyleChecker */ = {
+			isa = PBXGroup;
+			children = (
+				A822F19C1AA6F4ED001E4B4E /* AccelerometerViewController.h */,
+				A822F19D1AA6F4ED001E4B4E /* AccelerometerViewController.m */,
+				A822F17A1AA6E2DD001E4B4E /* AppDelegate.h */,
+				A822F17B1AA6E2DD001E4B4E /* AppDelegate.m */,
+				A822F1A01AA9793A001E4B4E /* XYZObject.h */,
+				A822F1A11AA9796B001E4B4E /* XYZObject.m */,
+				A87B2E171AC39DF80015505E /* ParamCalculator.h */,
+				A87B2E181AC39DF80015505E /* ParamCalculator.m */,
+				A822F1831AA6E2DD001E4B4E /* Images.xcassets */,
+				A822F1761AA6E2DD001E4B4E /* Supporting Files */,
+			);
+			path = WalkingStyleChecker;
+			sourceTree = "<group>";
+		};
+		A822F1761AA6E2DD001E4B4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A822F1771AA6E2DD001E4B4E /* Info.plist */,
+				A822F1781AA6E2DD001E4B4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A822F1721AA6E2DD001E4B4E /* WalkingStyleChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A822F1961AA6E2DD001E4B4E /* Build configuration list for PBXNativeTarget "WalkingStyleChecker" */;
+			buildPhases = (
+				A822F16F1AA6E2DD001E4B4E /* Sources */,
+				A822F1701AA6E2DD001E4B4E /* Frameworks */,
+				A822F1711AA6E2DD001E4B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalkingStyleChecker;
+			productName = WalkingStyleChecker;
+			productReference = A822F1731AA6E2DD001E4B4E /* WalkingStyleChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A822F16B1AA6E2DD001E4B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DeNA;
+				TargetAttributes = {
+					A822F1721AA6E2DD001E4B4E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A822F16E1AA6E2DD001E4B4E /* Build configuration list for PBXProject "WalkingStyleChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A822F16A1AA6E2DD001E4B4E;
+			productRefGroup = A822F1741AA6E2DD001E4B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A822F1721AA6E2DD001E4B4E /* WalkingStyleChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A822F1711AA6E2DD001E4B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A822F1841AA6E2DD001E4B4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A822F16F1AA6E2DD001E4B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A822F1A21AA9796B001E4B4E /* XYZObject.m in Sources */,
+				A822F19E1AA6F4ED001E4B4E /* AccelerometerViewController.m in Sources */,
+				A87B2E191AC39DF80015505E /* ParamCalculator.m in Sources */,
+				A822F17C1AA6E2DD001E4B4E /* AppDelegate.m in Sources */,
+				A822F1791AA6E2DD001E4B4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A822F1941AA6E2DD001E4B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fumiaki Monma (7PPZBD6TDQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fumiaki Monma (7PPZBD6TDQ)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A822F1951AA6E2DD001E4B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fumiaki Monma (7PPZBD6TDQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fumiaki Monma (7PPZBD6TDQ)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A822F1971AA6E2DD001E4B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WalkingStyleChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WalkingStyleChecker;
+			};
+			name = Debug;
+		};
+		A822F1981AA6E2DD001E4B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WalkingStyleChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WalkingStyleChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A822F16E1AA6E2DD001E4B4E /* Build configuration list for PBXProject "WalkingStyleChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A822F1941AA6E2DD001E4B4E /* Debug */,
+				A822F1951AA6E2DD001E4B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A822F1961AA6E2DD001E4B4E /* Build configuration list for PBXNativeTarget "WalkingStyleChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A822F1971AA6E2DD001E4B4E /* Debug */,
+				A822F1981AA6E2DD001E4B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A822F16B1AA6E2DD001E4B4E /* Project object */;
+}
